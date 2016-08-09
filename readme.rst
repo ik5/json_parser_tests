@@ -38,18 +38,18 @@ The project creates simple programs for specific type of testings:
 
 * Simple Elements (No nesting):
 
-    * String
+  * String
 
-      * Strict (that is the " sign) 
-      * Forgiven (support also ' sign)
-      * Escaping
+    * Strict (that is the " sign) 
+    * Forgiven (support also ' sign)
+    * Escaping
 
 
-    * Number
-    * Null
-    * Boolean
-    * Object
-    * Array
+  * Number
+  * Null
+  * Boolean
+  * Object
+  * Array
 
 * Nested Objects
   
@@ -61,11 +61,11 @@ The project creates simple programs for specific type of testings:
 
 * Nested Array
 
-   * One levels
-   * Two levels
-   * Multiple levels - Each element can be with random number of nesting, or no
-     nesting at all
-   * X levels - Depends on the .JSON file
+  * One levels
+  * Two levels
+  * Multiple levels - Each element can be with random number of nesting, or no
+    nesting at all
+  * X levels - Depends on the .JSON file
 
 * Full - Many .JSON files, with different structures
 
@@ -91,6 +91,7 @@ Directory structures:
 
 Code TODO:
 ==========
+
 [ ] Create Crystal_ code
 
 [ ] Create Ruby_ code
@@ -117,8 +118,15 @@ Code TODO:
 
 [ ] Create Bash_ code
 
-[ ] Create `Vim script` code
+[ ] Create `Vim script`_ code
 
+[ ] Create Scheme_ code
+
+[ ] Create Scala_ code
+
+[ ] Create Elixir_ code
+
+[ ] Create Haskell_ code
 
 
 Copyright
@@ -156,5 +164,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .. _C#: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
 .. _Bash: https://en.wikipedia.org/wiki/Bash_(Unix_shell)
 .. _Vim script: https://en.wikipedia.org/wiki/Vimscript
+.. _Scheme: https://en.wikipedia.org/wiki/Scheme_(programming_language)
+.. _Scala: http://www.scala-lang.org/
+.. _Elixir: http://elixir-lang.org/
+.. _Haskell: https://www.haskell.org/
 
 
