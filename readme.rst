@@ -1,6 +1,6 @@
-============
-Parser Tests
-============
+=================
+JSON Parser Tests
+=================
 
 The following project is a test of mine in many programming languages to test
 many factor of the language itself.
@@ -28,6 +28,64 @@ is a language that is platform specific, that cannot use x86(_64) modern Linux,
 I will not use that language in my expirements.
 
 **All compiles and interpetors that are in use, must be Open Source**
+
+Test Types:
+===========
+
+The project creates simple programs for specific type of testings:
+
+* Simple Elements (No nesting):
+
+    * String
+
+      * Strict (that is the " sign) 
+      * Forgiven (support also ' sign)
+      * Escaping
+
+
+    * Number
+    * Null
+    * Boolean
+    * Object
+    * Array
+
+* Nested Objects
+  
+  * One level
+  * Two levels
+  * Three levels
+  * X levels - Depends on the .JSON file
+   
+
+* Nested Array
+
+   * One levels
+   * Two levels
+   * Multiple levels - Each element can be with random number of nesting, or no
+     nesting at all
+   * X levels - Depends on the .JSON file
+
+* Full - Many .JSON files, with different structures
+
+Each bullet point is a test of it's own, with it's own sources, and directories.
+
+There is also JSON files with names such as ``string_escaping_XX.json`` where XX
+is for a numeric number for number of test.
+
+Directory structures:
+=====================
+
+* Each test has it's own directory under a specific programming language.
+
+* If there are sources for different compilers (for example changes to code
+  based on compiler name, there will be also a sub directory inside each testing.
+
+* If a language requires a specific directory structure, then it will be
+  implemented under the language name.
+
+* Common files based on language, will be under the "common" directory, unless a
+  language requires different directory structure.
+
 
 Code TODO:
 ==========
