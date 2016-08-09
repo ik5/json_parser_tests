@@ -128,6 +128,8 @@ Code TODO:
 
 [ ] Create Haskell_ code
 
+[ ] Create Lua_ code
+
 
 Copyright
 =========
@@ -168,5 +170,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 .. _Scala: http://www.scala-lang.org/
 .. _Elixir: http://elixir-lang.org/
 .. _Haskell: https://www.haskell.org/
+.. _Lua: http://www.lua.org/
 
 
