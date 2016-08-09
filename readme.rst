@@ -2,10 +2,10 @@
 JSON Parser Tests
 =================
 
-The following project is a test of mine in many programming languages to test
-many factor of the language itself.
+The following project is a hobby code of mine in many programming languages to test
+many factor of the languages.
 
-It is made by simply create a JSON parser in every programming language.
+It is made by simply create a JSON_ parser in many programming languages.
 By doing so, it is possible to learn the following:
 
 * Learn how structure (records/structs/data containers) works
@@ -16,14 +16,16 @@ By doing so, it is possible to learn the following:
 
 
 The project does not meant to create a production ready code, or efficient code.
+
 You can view it as an "Hello world" like pet project just to test stuff.
+
 Even if there is an existed JSON parser to that language, it is ignored!
 
 
 Supported Platforms
 ===================
 
-The programming languages that I'm using, must all work under Linux. So if there
+The programming languages that I'm using, must all works under Linux. So if there
 is a language that is platform specific, that cannot use x86(_64) modern Linux,
 I will not use that language in my expirements.
 
@@ -137,7 +139,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 
 
-
+.. _JSON: http://www.json.org/
 .. _Crystal: https://crystal-lang.org/
 .. _Ruby: https://www.ruby-lang.org/
 .. _Perl: https://www.perl.org/
